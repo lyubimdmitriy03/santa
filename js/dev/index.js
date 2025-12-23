@@ -8246,7 +8246,22 @@ document.addEventListener("DOMContentLoaded", () => {
     // "-=2.5"
   ).to("#marker", {
     opacity: 1
-  });
+  }).to(
+    ".icon-menu",
+    {
+      opacity: 1
+    },
+    "-=2.5"
+  ).to(
+    ".icon-menu span",
+    {
+      //   "clip-path": "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
+      opacity: 1,
+      x: 0,
+      stagger: 0.15
+    },
+    "-=2"
+  );
   const firstPanelTL = gsapWithCSS.timeline({
     defaults: {
       ease: "power3.out",
