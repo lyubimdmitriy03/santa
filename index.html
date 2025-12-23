@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="preload" href="./assets/fonts/Roboto-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/Risque-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="shortcut icon" href="./assets/img/Coca-Cola_logo.svg">
+		<title>Home Page</title>
+		<script type="module" crossorigin="" src="./js/index.min.js?v=1766518548306"></script>
+		<link rel="stylesheet" crossorigin="" href="./css/index.min.css?v=1766518548306">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header data-fls-header="" data-fls-header-scroll="" data-fls-header-scroll-show="" class="header">
+				<div class="header__container">
+					<div class="header__logo">
+						<a href="#" class="header__logo-link">
+							<img src="./assets/img/Coca-Cola_logo.svg" alt="Logo" class="header__logo-image">
+						</a>
+					</div>
+					<div class="header__menu menu">
+						<button type="button" data-fls-menu="" class="menu__icon icon-menu">
+							<span></span>
+							<span></span>
+							<span></span>
+						</button>
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item">
+									<a href="#" class="menu__link menu__link--active">
+										<span data-label="Home">Home</span>
+									</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link">
+										<span data-label="About">About</span>
+									</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link">
+										<span data-label="Products">Products</span>
+									</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link">
+										<span data-label="Contacts">Contacts</span>
+									</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<!--
+<fetch url="@components/layout/menu/menu.json">
+<each loop='item in response'>
+</each>
+</fetch>
+-->
+				</div>
+			</header>
+			<main class="page page--home">
+				<div class="page__body">
+					<div class="total-background" data-fls-gsap="">
+						<div class="total-background__body">
+							<div class="snowflake parallax" data-depth="0.6">
+								<img src="./assets/img/snowflake.svg" alt="snowflake">
+							</div>
+							<div class="snow__falling"></div>
+						</div>
+					</div>
+					<section class="hero-section panel">
+						<div class="hero-section__container">
+							<div class="hero-section__content">
+								<h1>Main Site Title</h1>
+								<h3>Lorem ipsum descripsum</h3>
+								<a href="#" class="main-btn">Call to action</a>
+							</div>
+							<button class="arrow-down">
+								<svg width="37" height="37" viewbox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M16.6831 35.7767C17.6617 36.7507 19.2446 36.747 20.2187 35.7685L36.0916 19.8217C37.0656 18.8431 37.0619 17.2602 36.0834 16.2861C35.1048 15.3121 33.5219 15.3158 32.5478 16.2943L18.4386 30.4693L4.26365 16.36C3.28508 15.386 1.70217 15.3896 0.728131 16.3682C-0.245911 17.3468 -0.242236 18.9297 0.736339 19.9037L16.6831 35.7767ZM18.3679 0.00579834L15.8679 0.0116025L15.9468 34.0106L18.4468 34.0048L20.9468 33.999L20.8679 -5.79923e-06L18.3679 0.00579834Z" fill="white"></path>
+								</svg>
+							</button>
+						</div>
+						<div class="hero-section__background">
+							<div class="dedcola">
+								<div class="speech-bubble">
+									<p class="triangle-isosceles right">
+										How how how !!!
+										<br>
+										Like it?
+										<br>
+										Scroll down for more !
+									</p>
+								</div>
+								<div class="dedcola__image">
+									<picture>
+										<source media="(max-width: 480px)" srcset="./assets/img/dedcoca_mobile.webp">
+										<picture>
+											<source media="(max-width: 600px)" srcset="./assets/img/dedcoca-600.webp" type="image/webp">
+											<img alt="dedcola" src="./assets/img/dedcoca.webp">
+										</picture>
+									</picture>
+								</div>
+							</div>
+						</div>
+						<div class="hero-section__background2">
+							<div id="sky"></div>
+						</div>
+					</section>
+					<section class="section-info panel">
+						<div class="section-info__background">
+							<div class="section-info__background-image">
+								<picture>
+									<source media="(max-width: 480px)" srcset="./assets/img/bg_2_mobile.webp">
+									<picture>
+										<source media="(max-width: 600px)" srcset="./assets/img/bg_2-600.webp" type="image/webp">
+										<source media="(max-width: 1200px)" srcset="./assets/img/bg_2-1200.webp" type="image/webp">
+										<img alt="Image" src="./assets/img/bg_2.webp">
+									</picture>
+								</picture>
+							</div>
+						</div>
+						<div class="section-info__container">
+							<div class="section-info__body">
+								<div class="section-info__content tabs" data-fls-tabs="" data-fls-tabs-animate="700">
+									<div class="section-info__right">
+										<h2>At least somewhere you can feel new year atmosphere</h2>
+										<h3>Choose your present:</h3>
+										<nav data-fls-tabs-titles="" class="tabs__navigation">
+											<button type="button" class="tabs__title --tab-active">
+												<div class="tabs__head">
+													<div class="tabs__head-image">
+														<picture>
+															<img alt="sock" src="./assets/img/new-year-sock.webp">
+														</picture>
+													</div>
+												</div>
+											</button>
+											<button type="button" class="tabs__title">
+												<div class="tabs__head">
+													<div class="tabs__head-image">
+														<picture>
+															<img alt="hat" src="./assets/img/caps-2.webp">
+														</picture>
+													</div>
+												</div>
+											</button>
+											<button type="button" class="tabs__title">
+												<div class="tabs__head">
+													<div class="tabs__head-image">
+														<picture>
+															<img alt="bag" src="./assets/img/new-year-bag.webp">
+														</picture>
+													</div>
+												</div>
+											</button>
+										</nav>
+									</div>
+									<div class="section-info__left">
+										<div data-fls-tabs-body="" class="tabs__content">
+											<div class="tabs__body">
+												<div class="tabs__info">
+													<div class="tabs__text">
+														<h4>Best sock ever</h4>
+														<p>
+															Reuglar sock have no present inside Lorem Ipsum is
+                        simply dumm y text of the printing and types etting
+                        industry. Lorem
+														</p>
+													</div>
+													<div class="tabs__img">
+														<picture>
+															<img alt="sock" src="./assets/img/new-year-sock.webp">
+														</picture>
+													</div>
+												</div>
+											</div>
+											<div class="tabs__body">
+												<div class="tabs__info">
+													<div class="tabs__text">
+														<h4>Best hat ever</h4>
+														<p>
+															Reuglar hat have no present inside Lorem Ipsum is simply
+                        dumm y text of the printing and types etting industry.
+                        Lorem
+														</p>
+													</div>
+													<div class="tabs__img">
+														<picture>
+															<img alt="hat" src="./assets/img/caps-2.webp">
+														</picture>
+													</div>
+												</div>
+											</div>
+											<div class="tabs__body">
+												<div class="tabs__info">
+													<div class="tabs__text">
+														<h4>Best gift ever</h4>
+														<p>
+															Reuglar gift have no present inside Lorem Ipsum is
+                        simply dumm y text of the printing and types etting
+                        industry. Lorem
+														</p>
+													</div>
+													<div class="tabs__img">
+														<picture>
+															<img alt="bag" src="./assets/img/new-year-bag.webp">
+														</picture>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+					<section class="contact-section panel">
+						<div class="contact-section__background">
+							<div class="contact-section__background-image">
+								<picture>
+									<source media="(max-width: 480px)" srcset="./assets/img/bg_3_mobile.webp">
+									<picture>
+										<source media="(max-width: 600px)" srcset="./assets/img/bg_3-600.webp" type="image/webp">
+										<source media="(max-width: 1200px)" srcset="./assets/img/bg_3-1200.webp" type="image/webp">
+										<img alt="Image" src="./assets/img/bg_3.webp">
+									</picture>
+								</picture>
+							</div>
+						</div>
+						<div class="contact-section__container">
+							<div class="contact-section__body">
+								<h2>Write us for real presents</h2>
+								<div class="contact-form">
+									<form data-fls-form="" class="form" method="POST" action="#">
+										<div class="contact-form__input-group">
+											<input required type="text" name="form[name]" data-fls-form-errtext="Error" placeholder="Name" class="input">
+											<input required type="tel" name="form[phone]" data-fls-form-errtext="Error" placeholder="Phone" class="input">
+										</div>
+										<div class="contact-form__input-group">
+											<select data-fls-select="" name="form[gender]" data-fls-select-modif="form" required>
+												<!--
+<option
+value=""
+data-fls-select-show
+data-fls-select-label="Gender"
+></option>
+-->
+												<option value="" data-fls-select-show="" data-fls-select-placeholder="">Gender</option>
+												<option value="2">Boy</option>
+												<option value="3">Girl</option>
+											</select>
+											<input required type="email" name="form[email]" data-fls-form-errtext="Error" placeholder="E-mail" class="input">
+										</div>
+										<textarea name="form[textarea]" data-fls-form-errtext="Error" id="wishes" placeholder="Your wish" class="textarea"></textarea>
+										<label data-fls-checkbox="" class="checkbox">
+											<input required data-error="Помилка" class="checkbox__input" type="checkbox" value="1" name="form[checkbox]">
+											<span class="checkbox__text">Want Coca-cola with present ?</span>
+										</label>
+										<button type="submit" class="main-btn">Send to Santa</button>
+									</form>
+								</div>
+							</div>
+						</div>
+					</section>
+				</div>
+			</main>
+			<footer data-fls-footer="" class="footer">
+				<div class="footer__container"></div>
+			</footer>
+		</div>
+	</body>
+</html>
