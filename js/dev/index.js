@@ -8298,7 +8298,7 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     "-=0.2"
   ).to(".speech-bubble", {
-    delay: 2,
+    delay: 1.3,
     opacity: 1,
     duration: 1
   });
